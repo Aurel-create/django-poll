@@ -49,7 +49,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ steps.login-ecr.outputs.registry }}/aurel-create-django:latest
+          tags: 893915089839.dkr.ecr.eu-west-1.amazonaws.com/aurel-create/django:latest
  
 
 
